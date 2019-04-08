@@ -1,0 +1,21 @@
+git init //nitialize git repository
+
+ls //see content, -a for ocult
+touck filename.extension //create file
+git status // mostra estado
+git commit -m "message" // commit
+git log // show commits
+git config --global user.email "qpedrobarreto@gmail.com" // set email
+git config  --global user.name "Pedro" // set username
+git diff filename // show diff
+git add . //add all 
+git checkout filename // return to last commit
+git reset --hard hash // return to hash
+git reset --soft HEAD@{1} // go to latest commit
+git branch // show branches
+git branch branchname // create branch branchname
+git checkout new_feature //move to new_feature
+git merge new_feature // merge current branch with new_feature
+git branch -d new_feature // delete new_feature
+.gitignore // to show files to not track
+git remote add remotename https //repository origin
